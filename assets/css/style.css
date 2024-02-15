@@ -225,6 +225,7 @@ button {
 }
 
 .overview-total {
+  position: relative;
   padding: 16px 0;
   border-radius: 8px;
   width: 169px;
@@ -271,6 +272,13 @@ button {
 .overview-total__btn:hover {
   background: #fff;
   color: var(--blue-color);
+}
+
+.overview-total-decor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.7;
 }
 
 .overview-list {
