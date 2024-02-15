@@ -331,6 +331,7 @@ button {
   align-items: center;
   column-gap: 4px;
   padding: 0 8px;
+  border-radius: 8px;
   height: 28px;
   min-width: 62px;
   background: var(--lighter-green-color);
