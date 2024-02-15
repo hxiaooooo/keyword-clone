@@ -13,10 +13,100 @@
       rel="stylesheet"
     />
     <!-- Reset CSS -->
-    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>KeyWord Web - Clone Project</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Container -->
+      <div class="container">
+        <!-- Header inside -->
+        <div class="header__inner">
+          <!-- Header left section -->
+          <div class="header-left">
+            <!-- Logo -->
+            <a href="#">
+              <p class="logo">Logo</p>
+            </a>
+            <div class="logo-line"></div>
+            <!-- Navbar -->
+            <navbar class="navbar">
+              <!-- Nav list -->
+              <ul class="nav-list">
+                <!-- Nav item -->
+                <li>
+                  <a href="#!" class="nav-link">Dashboard</a>
+                </li>
+                <!-- Nav item -->
+                <li>
+                  <a href="#!" class="nav-link">Dashboard</a>
+                </li>
+                <!-- Nav item -->
+                <li>
+                  <a href="#!" class="nav-link">Dashboard</a>
+                </li>
+              </ul>
+            </navbar>
+          </div>
+
+          <!-- header right -->
+          <div class="header-right">
+            <!-- Header user container -->
+            <div class="header__user-container">
+              <!-- User avatar -->
+              <a href="#!">
+                <img
+                  src="./assets/img/avatar.jpeg"
+                  alt=""
+                  class="header__user-ava"
+                />
+                <!-- <div class=>P</div> -->
+              </a>
+
+              <!-- User info -->
+              <div class="header__user-info-block">
+                <span class="header__user-info">Truong Thanh Tu</span>
+                <span class="header__user-info">ID: 123456</span>
+              </div>
+            </div>
+
+            <!-- Header log out -->
+            <div class="header__log-out">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 3L4.34913 1.66983C2.61651 1.3233 1 2.64852 1 4.41545V13.5845C1 15.3515 2.61651 16.6767 4.34913 16.3302L11 15"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M6 9H12"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-dasharray="0.2 0.2"
+                />
+                <path
+                  d="M13 12L15.9333 9.8C16.4667 9.4 16.4667 8.6 15.9333 8.2L13 6"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-dasharray="0.2 0.2"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
