@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-color: #293056;
+  --blue-color: #226fee;
+  --green-color: #49b97d;
+  --lighter-green-color: #e9faef;
+  --darker-green-color: #12a47f;
+  --gray-color: #b9b9b9;
+  --secondary-color-darker: #6a8383;
+  --text-color: #7d8188;
+  --text-color-darker: #575d5e;
+  --inter-font: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  --montserrat-font: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  --questrial-font: "Questrial", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+/* ============================ Common ============================  */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+input,
+textarea,
+select,
+button {
+  color: inherit;
+}
