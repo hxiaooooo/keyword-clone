@@ -161,3 +161,15 @@ button {
 .header__log-out:hover {
   opacity: 0.8;
 }
+
+/* ============================ Banner ============================  */
+.banner-block {
+  margin-top: 24px;
+}
+
+.banner {
+  border-radius: 8px;
+  width: 100%;
+  height: 230.46px;
+  object-fit: cover;
+}
